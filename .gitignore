@@ -1,0 +1,7 @@
+fonts
+jellyfin/log/*
+!jellyfin/log/.gitkeep
+jellyfin/cache/*
+!jellyfin/cache/.gitkeep
+jellyfin/data/*
+!jellyfin/data/.gitkeep

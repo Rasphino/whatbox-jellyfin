@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EncodingOptions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EncodingThreadCount>-1</EncodingThreadCount>
+  <TranscodingTempPath>/dev/shm/1361/jellyfin/transcodes</TranscodingTempPath>
+  <FallbackFontPath>/fallbackfonts</FallbackFontPath>
+  <EnableFallbackFont>true</EnableFallbackFont>
+  <DownMixAudioBoost>2</DownMixAudioBoost>
+  <MaxMuxingQueueSize>2048</MaxMuxingQueueSize>
+  <EnableThrottling>false</EnableThrottling>
+  <ThrottleDelaySeconds>180</ThrottleDelaySeconds>
+  <HardwareAccelerationType />
+  <EncoderAppPathDisplay>/usr/lib/jellyfin-ffmpeg/ffmpeg</EncoderAppPathDisplay>
+  <VaapiDevice>/dev/dri/renderD128</VaapiDevice>
+  <EnableTonemapping>false</EnableTonemapping>
+  <EnableVppTonemapping>false</EnableVppTonemapping>
+  <TonemappingAlgorithm>hable</TonemappingAlgorithm>
+  <TonemappingRange>auto</TonemappingRange>
+  <TonemappingDesat>0</TonemappingDesat>
+  <TonemappingThreshold>0.8</TonemappingThreshold>
+  <TonemappingPeak>100</TonemappingPeak>
+  <TonemappingParam>0</TonemappingParam>
+  <VppTonemappingBrightness>0</VppTonemappingBrightness>
+  <VppTonemappingContrast>1.2</VppTonemappingContrast>
+  <H264Crf>23</H264Crf>
+  <H265Crf>28</H265Crf>
+  <EncoderPreset />
+  <DeinterlaceDoubleRate>false</DeinterlaceDoubleRate>
+  <DeinterlaceMethod>yadif</DeinterlaceMethod>
+  <EnableDecodingColorDepth10Hevc>false</EnableDecodingColorDepth10Hevc>
+  <EnableDecodingColorDepth10Vp9>false</EnableDecodingColorDepth10Vp9>
+  <EnableEnhancedNvdecDecoder>false</EnableEnhancedNvdecDecoder>
+  <PreferSystemNativeHwDecoder>false</PreferSystemNativeHwDecoder>
+  <EnableIntelLowPowerH264HwEncoder>false</EnableIntelLowPowerH264HwEncoder>
+  <EnableIntelLowPowerHevcHwEncoder>false</EnableIntelLowPowerHevcHwEncoder>
+  <EnableHardwareEncoding>false</EnableHardwareEncoding>
+  <AllowHevcEncoding>false</AllowHevcEncoding>
+  <EnableSubtitleExtraction>true</EnableSubtitleExtraction>
+  <HardwareDecodingCodecs />
+  <AllowOnDemandMetadataBasedKeyframeExtractionForExtensions>
+    <string>mkv</string>
+  </AllowOnDemandMetadataBasedKeyframeExtractionForExtensions>
+</EncodingOptions>
