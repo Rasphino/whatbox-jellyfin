@@ -1,0 +1,4 @@
+```
+podman build -t rasphino/jellyfin .
+podman run -d  --rm --publish 3900:27964/tcp   --user $(id -u):$(id -g)  --userns keep-id  --mount type=bind,source=./jellyfin/cache,destination=/cache  --mount type=bind,source=./jellyfin/config,destination=/config --mount type=bind,source=./fallbackfonts,destination=/fallbackfonts  --mount type=bind,source=./jellyfin/data,destination=/data --mount type=bind,source=$HOME/media,destination=/media,ro=true --no-healthcheck rasphino/jellyfin:latest
+```
